@@ -4,7 +4,7 @@ import {CurrencyExchangeContainer} from "./components/currencyExchangeContainer"
 
 function App() {
     return (
-        <div className="App">
+        <div className="container">
             <CurrencyExchangeContainer/>
         </div>
     );

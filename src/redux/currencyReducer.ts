@@ -1,3 +1,4 @@
+import {CurrencyReducersTypes} from "./actions";
 
 export type CurrencyType = {
     currencyName: string;
@@ -38,8 +39,9 @@ export const initialState: CurrencyState = {
 
 
 
-export const currencyReducer = (state: CurrencyState = initialState, action: any) => {
+export const currencyReducer = (state: CurrencyState = initialState, action: CurrencyReducersTypes): CurrencyState => {
     switch (action.type) {
+
         default:
             return state;
     }
