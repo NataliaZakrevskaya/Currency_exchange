@@ -4,8 +4,6 @@ export enum ACTIONS_TYPE {
     CHANGE_CURRENT_CURRENCY = 'CurrencyExchange/CHANGE_CURRENT_CURRENCY',
 }
 
-
-
 export const ChangeCurrencyFieldAC = (amountOfBYN: string, amountOfCurrency: string) => {
     return {type: ACTIONS_TYPE.CHANGE_CURRENCY_FIELD_TYPE, payload: {amountOfBYN, amountOfCurrency}} as const
 };
